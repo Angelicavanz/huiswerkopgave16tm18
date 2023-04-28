@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Leiden</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@1,100&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+            .header {
+                max-height: 250px;
+                width: 100%;
+            }
+            .h1 {
+                font-family: 'Ysabeau', sans-serif;
+                position: absolute; 
+                left: 10px;
+                top: 10px;
+                background-color: white;               
+            }
+            .achtergrond {
+                max-height: 250px;
+                width: 100%;
+            }
+            [class*="col-"] {       
+                padding: 15px;
+            }
+                .col-1 {width: 8.33%;}
+                .col-2 {width: 16.66%;}
+                .col-3 {width: 25%;}
+                .col-4 {width: 33.33%;}
+                .col-5 {width: 41.66%;}
+                .col-6 {width: 50%;}
+                .col-7 {width: 58.33%;}
+                .col-8 {width: 66.66%;}
+                .col-9 {width: 75%;}
+                .col-10 {width: 83.33%;}    
+                .col-11 {width: 91.66%}
+                .col-12 {width: 100%;}
+            .centraal, .burcht, .musea {
+                display: flex;
+            }
+            .links {    
+                padding: 10px;
+                background-color: white;
+            }
+            .midden {
+                background-color:white;
+            }
+            .rechts {
+                padding: 10px;
+                background-color: aqua;
+            } 
+            @media only screen and (min-width: 768px) {
+                .rechts { 
+                    background-color: red;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 class="h1">Leiden</h1>
+            <img src="leiden.jpeg" alt="leiden" class="achtergrond">
+        </header>
+        <div class="centraal">
+            <div class="col-2">
+                <section class="links">
+                    <ul>
+                        <li> Leiden is een stad en gemeente in het noordwesten van de Nederlandse provincie Zuid-Holland </li>
+                        <li> Het Leidse stadswapen bestaat uit een wit of zilveren schild met twee gekruiste rode sleutels</li>
+                        <li> Door Leiden stroomt de Oude Rijn</li>
+                        <li> De bekendste gracht is het Rapenburg waaraan het Academiegebouw en de Hortus Botanicus van de Universiteit zijn gevestigd</li>
+                        <li> Leiden telt ruim 1250 rijksmonumenten, 1550 gemeentelijke monumenten, 4550 beeldbepalende panden en 2 archeologische monumenten</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="col-1">
+                <section class="midden"></section>
+            </div>
+            <div class="col-9">
+                <section class="rechts">
+                    <div class="burcht">
+                        <div id="tekst">
+                            <h2>De Burcht</h2>
+                            <p>De Burcht van Leiden is een van de oudste nog bestaande voorbeelden van een burcht in Nederland. De Burcht staat op een motte, een kunstmatige heuvel, en maakte deel uit van een zogenaamd motte kasteel. Archeologen ontdekten dat de heuvel eind negende eeuw moet zijn gebouwd. Bovenop de heuvel stond een ronde muur en een, nu verdwenen, toren. Al in de veertiende eeuw verloor de Burcht zijn militaire functie. Deze mooie plek is een must see bij een bezoek aan Leiden. Wanneer je de vele treden hebt gelopen, wacht je een prachtig uitzicht over de stad.</p>
+                        </div>
+                        <div id="afbeelding"> 
+                            <img src="deburcht.jfif" alt="de burcht" height="200px">
+                        </div>
+                    </div>
+                    <div class="musea">
+                        <div id="tekst">
+                            <h2>Museum Volkenkunde</h2>
+                            <p>Museum Volkenkunde is een van de oudste volkenkundige musea ter wereld en staat midden in de actualiteit. Het museum maakt nieuwsgierig naar de enorme culturele diversiteit die de wereld rijk is. Museum Volkenkunde is een museum over mensen, gevestigd in een monumentaal gebouw aan de Singel. Bezoekers bereiken het museum via de tuin, waarin de metershoge totempaal hen welkom heet.</p>
+                       </div>
+                       <div id="afbeelding">
+                            <img src="museum.jfif" alt="museum volkenkunde" height="200px">
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <footer>
+        </footer>
+    </body>
+</html>
